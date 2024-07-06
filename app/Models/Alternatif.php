@@ -13,7 +13,7 @@ class Alternatif extends Model
 
     protected $table = 'alternatif';
     protected $fillable = [
-        'nama', 'harga_lahan', 'kepadatan_penduduk', 'aksebilitas', 'keamanan', 'jenis',
+        'alternatif', 'hargalahan', 'kepadatanpenduduk', 'aksebilitas', 'keamanan', 'jenis',
     ];
     public $timestamps = FALSE;
     

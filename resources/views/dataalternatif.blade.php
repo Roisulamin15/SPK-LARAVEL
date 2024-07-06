@@ -1,4 +1,4 @@
-@extends('page')
+  @extends('page')
 
 @section('content')
 
@@ -40,10 +40,10 @@
                   <tr>
                     <th>No.</th>
                     <th>alternatif</th>
-                    <th>harga</th>
-                    <th>ukuran</th>
-                    <th>merek</th>
-                    <th>warna</th>
+                    <th>hargalahan</th>
+                    <th>kepadatanPenduduk</th>
+                    <th>aksebilitas</th>
+                    <th>keamanaan</th>
                     <th>jenis</th>
                     <th>Aksi</th>
                   </tr>
@@ -53,10 +53,10 @@
                   <tr>
                     <td>{{ $i+1 }}</td>
                     <td>{{ $alternatif->alternatif }}</td>
-                    <td>{{ $alternatif->harga }}</td>
-                    <td>{{ $alternatif->ukuran }}</td>
-                    <td>{{ $alternatif->merek }}</td>
-                    <td>{{ $alternatif->warna }}</td>
+                    <td>{{ $alternatif->hargalahan }}</td>
+                    <td>{{ $alternatif->kepadatanpenduduk }}</td>
+                    <td>{{ $alternatif->aksebilitas }}</td>
+                    <td>{{ $alternatif->keamanan }}</td>
                     <td>{{ $alternatif->jenis }}</td>
                     <td>
                       <a href="{{ url('alternatif/edit/'.$alternatif->id) }}" class="btn-xs btn-primary">Edit</a>

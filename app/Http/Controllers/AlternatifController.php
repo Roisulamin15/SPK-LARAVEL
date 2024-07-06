@@ -34,18 +34,18 @@ class AlternatifController extends Controller
 
     public function update(Request $request, $id) {
         $alternatif1      = $request->input('alternatif');
-        $harga1 = $request->input('harga');
-        $ukuran1 = $request->input('ukuran');
-        $merek1 = $request->input('merek');
-        $warna1 = $request->input('warna');
+        $harga1 = $request->input('hargalahan');
+        $ukuran1 = $request->input('kepadatanPenduduk');
+        $merek1 = $request->input('aksebilitas');
+        $warna1 = $request->input('keamanaan');
         $jenis1 = $request->input('jenis');
         
         $alternatif = Alternatif::where('id', $id)->first();
         $alternatif->alternatif    = $alternatif1;
-        $alternatif->harga = $harga1;
-        $alternatif->ukuran = $ukuran1;
-        $alternatif->merek = $merek1;
-        $alternatif->warna = $warna1;
+        $alternatif->hargalahan = $hargalahan1;
+        $alternatif->kepadatanPenduduk = $kepadatanPenduduk1;
+        $alternatif->aksebilitas = $aksebilitas1;
+        $alternatif->keamanaan = $keamanaan1;
         $alternatif->jenis = $jenis1;
 
         $alternatif->save();
@@ -63,19 +63,19 @@ class AlternatifController extends Controller
 
     public function store(Request $request) {
         $alternatif1 = $request->input('alternatif');
-        $harga1 = $request->input('harga');
-        $ukuran1 = $request->input('ukuran');
-        $merek1 = $request->input('merek');
-        $warna1 = $request->input('warna');
+        $hargalahan1 = $request->input('hargalahan');
+        $kepadatanPenduduk1 = $request->input('kepadatanpenduduk');
+        $askebilitas1 = $request->input('aksebilitas');
+        $keamanaan1 = $request->input('keamanan');
         $jenis1 = $request->input('jenis');
         ;
 
         $alternatif = new Alternatif;
-        $alternatif->alternatif    = $alternatif1;
-        $alternatif->harga = $harga1;
-        $alternatif->ukuran = $ukuran1;
-        $alternatif->merek = $merek1;
-        $alternatif->warna = $warna1;
+        $alternatif->alternatif = $alternatif1;
+        $alternatif->hargalahan = $hargalahan1;
+        $alternatif->kepadatanPenduduk = $kepadatanPenduduk1;
+        $alternatif->aksebilitas = $askebilitas1;
+        $alternatif->keamanan = $keamanaan1;
         $alternatif->jenis = $jenis1;
 
         $alternatif->save();

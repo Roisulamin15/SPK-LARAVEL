@@ -45,25 +45,25 @@
                   <div class="form-group row">
                     <label for="harga" class="col-sm-2 col-form-label">C1</label>
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" name="harga" placeholder="Nilai Kriteria (harga)" required>
+                      <input type="text" class="form-control" name="hargalahan" placeholder="Nilai Kriteria (hargalahan)" required>
                     </div>
                   </div>
                   <div class="form-group row">
                     <label for="ukuran" class="col-sm-2 col-form-label">C2</label>
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" name="ukuran" placeholder="Nilai Kriteria (ukuran)" required>
+                      <input type="text" class="form-control" name="kepadatanpenduduk" placeholder="Nilai Kriteria (kepadatanpenduduk)" required>
                     </div>
                   </div>
                   <div class="form-group row">
                     <label for="merek" class="col-sm-2 col-form-label">C3</label>
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" name="merek" placeholder="Nilai Kriteria (merek)" required>
+                      <input type="text" class="form-control" name="aksebilitas" placeholder="Nilai Kriteria (aksebilitas)" required>
                     </div>
                   </div>
                   <div class="form-group row">
                     <label for="warna" class="col-sm-2 col-form-label">C4</label>
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" name="warna" placeholder="Nilai Kriteria (warna)" required>
+                      <input type="text" class="form-control" name="keamanan" placeholder="Nilai Kriteria (keamanaan)" required>
                     </div>
                   </div>
                   <div class="form-group row">

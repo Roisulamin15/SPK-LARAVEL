@@ -16,10 +16,10 @@ class CreateAlternatifTable extends Migration
         Schema::create('alternatif', function (Blueprint $table) {
             $table->id();
             $table->string('alternatif');
-            $table->double('harga');
-            $table->double('ukuran');
-            $table->double('merek');
-            $table->double('warna');
+            $table->double('hargalahan');
+            $table->double('kepadatanpenduduk');
+            $table->double('aksebilitas');
+            $table->double('keamanan');
             $table->double('jenis');
             $table->timestamps();
         });
