@@ -17,6 +17,12 @@ Route::get('/', function () {
     return view('LocationAtm');
 });
 
+
+Route::get('/welcome', function () {
+    return view('welcome');
+});
+
+
 Route::get('/dashboard',[PertanianController::class, 'index'])->name('dashboard');
 
 

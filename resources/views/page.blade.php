@@ -122,7 +122,7 @@
 
   <footer class="main-footer">
     <strong>Copyright &copy; 2024 </strong>
-    Pemilihan Sepatu Terbaik
+    Penentuan Lokasi Atm
     <div class="float-right d-none d-sm-inline-block">
       <b>Version</b> 3.2.0
     </div>

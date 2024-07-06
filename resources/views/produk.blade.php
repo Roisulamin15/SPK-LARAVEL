@@ -38,7 +38,7 @@
         </div>
       </div>
 
-    <div class="container">
+    <!-- <div class="container">
       <div class="row">
           <div class="col-md-4">
               <div class="card">
@@ -65,9 +65,9 @@
                   </div> 
               </div>
       </div>
-    </div>
+    </div> -->
     
-    <div class="container mt-5 mb-5 ">
+    <!-- <div class="container mt-5 mb-5 ">
         <div class="row">
           <div class="col-12 col-md-12 ">
           </div>
@@ -100,10 +100,10 @@
                   </div> 
               </div>    
         </div>
-      </div>
-      <div class="container">
+      </div> -->
+      <!-- <div class="container">
         </div>
-      </div>  
+      </div>   -->
 </body>
 
 <br><br>

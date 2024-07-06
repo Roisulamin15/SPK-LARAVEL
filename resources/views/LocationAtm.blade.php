@@ -26,15 +26,15 @@
 
     <section class="landingPage" id="landingPage">
         <div class="image">
-            <img src="IMG/banner1.png" style="margin-top: -10; margin-right: 50px;" alt="">
+            <img src="IMG/4Z_2101.w021.n001.347B.p15.347.jpg" style="margin-top: -10; margin-right: 50px;" alt="">
         </div>
       </section>
 
 <br><br>
 
-    <div class="container">
-        <div class="row">
-            <div class="centercolumn">
+    <!-- <div class="container">
+        <div class="row"> -->
+            <!-- <div class="centercolumn">
               <div class="card">
                 <h2>Sepatu Vans</h2>
                 <img src="IMG/3.jpg" width= "1150" height= "450" ></p>
@@ -53,7 +53,7 @@
                 <p>Belakangan ini, industri dalam negeri semakin menggeliat dan unjuk gigi di pasar nasional. Beberapa di antaranya juga ada yang dikira brand asing, sebab kualitasnya yang setara brand internasional...</p>
                 <a class="btn btn-primary" href="https://store.sirclo.com/blog/kisah-sepatu-compass/" role="button">Selengkapnya</a>
               </div>
-              </div>                    
+              </div>                     -->
 
               
               </div>
