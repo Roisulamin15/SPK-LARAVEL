@@ -26,7 +26,7 @@
     </nav>
     <section class="landingPage" id="landingPage">
         <div class="image">
-            <img src="img/logo.jpg" style="margin-top: -10; margin-right: 50px;" alt="">
+            <img src="IMG/logo.jpg" style="margin-top: -10; margin-right: 50px;" alt="">
         </div>
       </section>
 
