@@ -15,7 +15,7 @@
     <nav>
         <ul>
             <li class="nav-item active" style="margin-right: 80px;">
-                <img src="IMG/logo.png"  width= "200" height= "70" ></li>
+                <img src="https://www.google.com/imgres?q=logo%20img%20atm&imgurl=https%3A%2F%2Fwww.shutterstock.com%2Fimage-vector%2Fatm-letter-logo-design-on-260nw-2446749127.jpg&imgrefurl=https%3A%2F%2Fwww.shutterstock.com%2Fsearch%2Fatm-logo&docid=-Bh_V32JxqA9ZM&tbnid=d0GlbexpPqAB5M&vet=12ahUKEwjx8JnFnJaHAxVN4zgGHdfiA6wQM3oECHUQAA..i&w=260&h=280&hcb=2&ved=2ahUKEwjx8JnFnJaHAxVN4zgGHdfiA6wQM3oECHUQAA"  width= "200" height= "70" ></li>
             <li class="nav-item active" style="margin-right: 80px;">
                 <a href="produk">Produk</a></li>
             <li class="nav-item active" style="margin-right: 80px;">
@@ -26,7 +26,7 @@
     </nav>
     <section class="landingPage" id="landingPage">
         <div class="image">
-            <img src="IMG/banner1.png" style="margin-top: -10; margin-right: 50px;" alt="">
+            <img src="img/logo.jpg" style="margin-top: -10; margin-right: 50px;" alt="">
         </div>
       </section>
 

@@ -41,7 +41,7 @@
                     <th>No.</th>
                     <th>alternatif</th>
                     <th>hargalahan</th>
-                    <th>kepadatanPenduduk</th>
+                    <th>kepadatanpenduduk</th>
                     <th>aksebilitas</th>
                     <th>keamanaan</th>
                     <th>jenis</th>

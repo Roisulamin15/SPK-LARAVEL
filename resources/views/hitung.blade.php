@@ -34,19 +34,19 @@
                                 <thead>
                                     <tr>
                                         <th>Alternatif</th>
-                                        <th>C1</th>
-                                        <th>C2</th>
-                                        <th>C3</th>
-                                        <th>C4</th>
-                                        <th>C5</th>
+                                        <th>hargalahan</th>
+                                        <th>kepadatan penduduk</th>
+                                        <th>atm kompetitor</th>
+                                        <th>aksebilitas</th>
+                                        <th>keamanaan</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     @foreach ($data as $alternatif)
                                         <tr>
                                             <td>{{ $alternatif->alternatif }}</td>
-                                            <td>{{ $alternatif->harga_lahan != 0 ? ($minC1 / $alternatif->harga_lahan) : 0 }}</td>
-                                            <td>{{ $alternatif->kepadatan_penduduk != 0 ? ($alternatif->kepadatan_penduduk / $maxC2) : 0 }}</td>
+                                            <td>{{ $alternatif->hargalahan != 0 ? ($minC1 / $alternatif->hargalahan) : 0 }}</td>
+                                            <td>{{ $alternatif->kepadatanpenduduk != 0 ? ($alternatif->kepadatanpenduduk / $maxC2) : 0 }}</td>
                                             <td>{{ $alternatif->aksebilitas != 0 ? ($alternatif->aksebilitas / $maxC3) : 0 }}</td>
                                             <td>{{ $alternatif->keamanan != 0 ? ($alternatif->keamanan / $maxC4) : 0 }}</td>
                                             <td>{{ $alternatif->jenis != 0 ? ($alternatif->jenis / $maxC5) : 0 }}</td>
@@ -83,8 +83,8 @@
                                             <td>{{ $alternatif->alternatif }}</td>
                                             <td>
                                                 {{
-                                                    ($alternatif->harga_lahan != 0 ? ($minC1 / $alternatif->harga_lahan) * $widget1['kriteria'] : 0) +
-                                                    ($alternatif->kepadatan_penduduk != 0 ? ($alternatif->kepadatan_penduduk / $maxC2) * $widget2['kriteria'] : 0) +
+                                                    ($alternatif->hargalahan != 0 ? ($minC1 / $alternatif->hargalahan) * $widget1['kriteria'] : 0) +
+                                                    ($alternatif->kepadatanpenduduk != 0 ? ($alternatif->kepadatanpenduduk / $maxC2) * $widget2['kriteria'] : 0) +
                                                     ($alternatif->aksebilitas != 0 ? ($alternatif->aksebilitas / $maxC3) * $widget3['kriteria'] : 0) +
                                                     ($alternatif->keamanan != 0 ? ($alternatif->keamanan / $maxC4) * $widget4['kriteria'] : 0) +
                                                     ($alternatif->jenis != 0 ? ($alternatif->jenis / $maxC5) * $widget5['kriteria'] : 0)
